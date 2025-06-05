@@ -1,0 +1,36 @@
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  font-family: "Arial", sans-serif;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+h1 {
+  font-family: "Style Script", cursive !important;
+  font-weight: 400;
+  font-style: normal;
+  color: #555555 !important;
+  font-size: 50px !important;
+}
+a
+{
+  text-decoration: none;
+  color: #555555 !important;
+  margin-left: 20px;
+  font-weight: 500;
+}
+
+a:hover
+{
+  text-decoration: underline;
+  color: #555555 !important;
+}
+
+main {
+  flex: 1;
+  background: radial-gradient(circle, #fcfaf5 0%, #f4edde 100%);
+}
